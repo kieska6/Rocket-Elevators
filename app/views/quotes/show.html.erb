@@ -1,0 +1,52 @@
+<div class="container">
+
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Building Type: </strong>
+    <%= @quote.building_type %>
+  </p>
+
+  <p>
+    <strong>Amount of elevator:</strong>
+    <%= @quote.amount_of_elevator %>
+  </p>
+
+  <p>
+    <strong>Price per elevator:</strong>
+    <%= @quote.price_per_elevator %>
+  </p>
+
+  <p>
+    <strong>Total price of elevator:</strong>
+    <%= @quote.total_price_of_elevator %>
+  </p>
+
+  <p>
+    <strong>Installation:</strong>
+    <%= @quote.installation %>
+  </p>
+
+  <p>
+    <strong>Total price:</strong>
+    <%= @quote.total_price %>
+  </p>
+
+  <%= link_to 'Edit', edit_quote_path(@quote),class:"btn btn-danger" %>
+  <%= link_to 'Your list of Quotes', quotes_path,class:"btn btn-primary" %>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>

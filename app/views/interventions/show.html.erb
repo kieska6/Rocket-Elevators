@@ -1,0 +1,65 @@
+<div class="container">
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Author:</strong>
+    <%= @intervention.author %>
+  </p>
+
+  <p>
+    <strong>Customer:</strong>
+    <%= @intervention.customer_id %>
+  </p>
+
+  <p>
+    <strong>Building:</strong>
+    <%= @intervention.building_id %>
+  </p>
+
+  <p>
+    <strong>Battery:</strong>
+    <%= @intervention.battery_id %>
+  </p>
+
+  <p>
+    <strong>Column:</strong>
+    <%= @intervention.column_id %>
+  </p>
+
+  <p>
+    <strong>Elevator:</strong>
+    <%= @intervention.elevator_id %>
+  </p>
+
+  <p>
+    <strong>Employee:</strong>
+    <%= @intervention.employee_id %>
+  </p>
+
+  <p>
+    <strong>Intervention start date time:</strong>
+    <%= @intervention.intervention_start_date_time %>
+  </p>
+
+  <p>
+    <strong>Intervention end date time:</strong>
+    <%= @intervention.intervention_end_date_time %>
+  </p>
+
+  <p>
+    <strong>Result:</strong>
+    <%= @intervention.result %>
+  </p>
+
+  <p>
+    <strong>Report:</strong>
+    <%= @intervention.report %>
+  </p>
+
+  <p>
+    <strong>Status opt:</strong>
+    <%= @intervention.status_opt %>
+  </p>
+
+  <%= link_to 'Create Another', new_intervention_path %>
+</div>

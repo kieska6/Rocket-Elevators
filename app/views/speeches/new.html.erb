@@ -1,0 +1,60 @@
+<h1>New Speech</h1>
+<div class = "well">
+   <%= form_for @speech, method: :post do |f|  %>
+    <div class="row">
+    <div class="col-md-12">
+        <%= f.label :result %>
+        <%= f.text_area :result %>
+    </div> 
+    </div>
+    <%= f.label :attachment %>
+    <%= f.file_field :attachment %>
+    <small class="text-muted block">Max file size: 10Mb (only .wav file please)</small>
+    <div>
+        <select name="position" class="form-control pointer required" id="language">
+            <option value="nil">--- Select ---</option>
+            <option value="en-Ca">English</option>
+            <option value="fr-Fr">French</option>
+        </select>
+    </div>
+      <%= button_tag "Transcribe", id: 'form', class: "btn btn-primary" %>
+   <% end %>
+</div>
+<script type="text/javascript">
+    var recordingblob = null;
+
+    audioRecorder && audioRecorder.exportWAV(function (blob) {
+        recordingblob = blob;
+    });
+    $(function() {
+        $('#form').on('click', function (e) {
+
+            event.preventDefault();
+
+            var formData = new FormData($(this)[0]);
+
+            if (recordingblob) {
+                var recording = new Blob([recordingblob], { type: "audio/wav" });
+                formData.append("recording", recording);
+            }
+        
+            $.ajax({
+                url: "https://westus.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=en-US",
+                beforeSend: function(xhrObj){
+                    // Request headers
+                    xhrObj.setRequestHeader('Content-Type: audio/wav');
+                    xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","cecf1c3132884c23ac9eb8533ad7d037");
+                },
+                type: "POST",
+                // Request body
+                data: formData,
+            })
+            .done(function(data) {
+                alert("success");
+            })
+            .fail(function() {
+                alert("error");
+            });
+        });
+    });
+</script>

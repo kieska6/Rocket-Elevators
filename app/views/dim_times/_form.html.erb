@@ -1,0 +1,17 @@
+<%= form_with(model: dim_time, local: true) do |form| %>
+  <% if dim_time.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(dim_time.errors.count, "error") %> prohibited this dim_time from being saved:</h2>
+
+      <ul>
+      <% dim_time.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

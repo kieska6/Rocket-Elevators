@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<div class="jumbotron">
+  <h1 class="display-4">
+    Column of Battery: <%= @column.batteryid %>
+  </h1>
+  <p class="lead">
+    <%= @column.type_of_building %>
+  </p>
+
+  <p>
+    <strong>Number of floors served:</strong>
+    <%= @column.number_of_floors_served %>
+  </p>
+
+  <p>
+    <strong>Status:</strong>
+    <%= @column.status %>
+  </p>
+
+  <p>
+    <strong>Information:</strong>
+    <%= @column.information %>
+  </p>
+
+  <p>
+    <strong>Notes:</strong>
+    <%= @column.notes %>
+  </p>
+
+  <%= link_to 'Edit', edit_column_path(@column),class: "btn btn-primary text-light" %>  
+  <%= link_to 'Back', columns_path, class: "btn btn-secondary text-light" %>
+</div>

@@ -1,0 +1,225 @@
+		<!-- REVOLUTION SLIDER -->
+			<div class="slider fullwidthbanner-container roundedcorners">
+				<!--
+					Navigation Styles:
+					
+						data-navigationStyle="" theme default navigation
+						
+						data-navigationStyle="preview1"
+						data-navigationStyle="preview2"
+						data-navigationStyle="preview3"
+						data-navigationStyle="preview4"
+						
+					Bottom Shadows
+						data-shadow="1"
+						data-shadow="2"
+						data-shadow="3"
+						
+					Slider Height (do not use on fullscreen mode)
+						data-height="300"
+						data-height="350"
+						data-height="400"
+						data-height="450"
+						data-height="500"
+						data-height="550"
+						data-height="600"
+						data-height="650"
+						data-height="700"
+						data-height="750"
+						data-height="800"
+				-->
+				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">
+					<ul class="hide">
+					
+						<!-- SLIDE  -->
+						<li data-transition="parallaxtobottom" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off"  data-title="Our Services" data-delay="7000">
+							<!-- MAIN IMAGE -->
+							<%= image_tag "AdobeStock_162479912.jpeg", class:"img-fluid" %>
+
+							<div class="tp-caption white_big skewfromleft tp-resizeme"
+								data-x="90"
+								data-y="90" 
+								data-speed="400"
+								data-start="1500"
+								data-easing="Power3.easeInOut"
+								data-splitin="words"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="600"
+								style="z-index: 2; color:rgb(255, 255, 255); font-size:65px; line-height:85px; font-weight:bold; letter-spacing:0; text-shadow:0rem;">
+									Elevate Safety, Speed and Style!
+							</div>
+
+							<div class="tp-caption content_text_center skewfromleft tp-resizeme"
+								data-x="280"
+								data-y="195" 
+								data-speed="500"
+								data-start="2000"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="600"
+
+								style="z-index: 3; font-size:20px; color:rgb(255, 255, 255); font-weight:400; text-shadow:0em;">
+									Ditch those old cable elevators, Rocket Elevators are the future!
+							</div>
+
+							<div class="tp-caption skewfromleft tp-resizeme  un-button-2-lg"
+								data-x="665"
+								data-y="300" 
+								data-speed="300"
+								data-start="2500"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="300"
+
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+									<%= link_to "OUR SERVICES >", home_index_path(:anchor => "services"), class:"btn btn-primary btn-lg" %>
+							</div>
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="parallaxtotop" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" data-title="Residential Solutions" data-delay="7000">
+							<!-- MAIN IMAGE -->
+							<%= image_tag "AdobeStock_122227340.jpeg", class:"img-fluid" %> 
+
+							<div class="overlay dark-4"><!-- dark overlay [0 to 9 opacity] --></div>
+
+							<div class="tp-caption font-roboto skewfromleft tp-resizeme"
+								data-x="270"
+								data-y="100" 
+								data-speed="500"
+								data-start="1500"
+								data-easing="Cubic.easeOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								style="z-index: 2; color:#fff; font-size:65px; line-height:85px; font-weight:bold; letter-spacing:0; text-shadow:none;">
+									Residential Solutions <br />
+							</div>
+
+							<div class="tp-caption skewfromrightshort tp-resizeme"
+								data-x="355"
+								data-y="200" 
+								data-speed="500"
+								data-start="1000"
+								data-easing="easeInCirc"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								style="z-index: 3; font-size:20px; color:#fff; font-weight:300; text-shadow:none;">
+									Ever dreamt of getting home faster? We can do that! <br />
+									
+							</div>
+
+							<div class="tp-caption sfb tp-resizeme"
+								data-x="295"
+								data-y="410" 
+								data-speed="500"
+								data-start="1500"
+								data-easing="Power3.easeIn"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="1"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								style="z-index: 4; max-width: auto;">
+									<%= link_to "OUR SERVICES >", home_index_path(:anchor => "services"), class:"btn btn-primary btn-lg" %>
+							</div>
+
+							<div class="tp-caption sfb tp-resizeme"
+								data-x="665"
+								data-y="410" 
+								data-speed="500"
+								data-start="1500"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
+									<%= link_to "GET A QUOTE >", quotes_path, class:"btn btn-danger btn-lg" %>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+			<!-- /REVOLUTION SLIDER -->
+
+
+			<hr class="m-0" /><!-- 1px line separator -->
+
+
+			<!-- BUTTON CALLOUT -->
+			<a href="#" class="btn btn-xlg btn-primary fs-20 fullwidth m-0 rad-0 p-40">
+				<span class="font-lato fs-30">
+					Rocket Elevators Corporate and Commercial Solutions
+				</span>
+			</a>
+			<!-- /BUTTON CALLOUT -->
+
+
+			
+			<!-- Services -->
+			<section id="commercial">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-sm-4">
+								<%= image_tag "commercialassets/corporate.jpg", class:"img-fluid" %>
+							
+
+							<h3 class="mt-10">Corporate Packages</h3>
+							<p>Our Corporate packages come with a plethora of options, if you can think of adding it, its probably already in the list! Get a quote now!</p>
+						</div>
+
+						<div class="col-sm-4">
+							<%= image_tag "commercialassets/commercial.jpg", class:"img-fluid" %>
+							<h3 class="mt-10">Commercial Packages</h3>
+							<p>Our Commercial packages really put the emphasis on user friendliness and comfort, in many different styles! Get a quote now!</p>
+						</div>
+
+						<div class="col-sm-4">
+							<%= image_tag "commercialassets/custom.jpg", class:"img-fluid" %>
+							<h3 class="mt-10">Custom Solutions</h3>
+							<p>We also offer custom solutions! No project is too big for us, we will work with you until its done, we love challenges! Contact us now!</p>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /Services -->
+
+			
+
+
+			<!-- Parallax -->
+			<section class="parallax parallax-1" style="background-image:url(<%= image_url('AdobeStock_78149317.jpeg')%>">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h2 class="fs-40 fw-300">Found the package for you?</h2>
+						<%= link_to "Get A Quote >", quotes_path, class:"btn btn-primary btn-lg" %>
+						&nbsp; OR &nbsp; 
+						<%= link_to "Contact Us >", home_index_path(:anchor => "contact"), class:"btn btn-primary btn-lg" %>
+					</div>
+
+				</div>
+			</section>
+			<!-- /Parallax -->

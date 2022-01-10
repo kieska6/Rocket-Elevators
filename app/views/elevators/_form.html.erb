@@ -1,0 +1,70 @@
+<%= form_with(model: elevator, local: true) do |form| %>
+  <% if elevator.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(elevator.errors.count, "error") %> prohibited this elevator from being saved:</h2>
+
+      <ul>
+      <% elevator.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= form.label :column_id %>
+    <%= form.number_field :column_id,class:"form-control col-6",placeholder:"ID of the Column this Elevator is in." ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :serial_number %>
+    <%= form.number_field :serial_number,class:"form-control col-6",placeholder:"Your Elevator's Serial Number" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :model %>
+    <%= form.text_field :model,class:"form-control col-6",placeholder:"Your Elevator's Model" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :type_of_building %>
+    <%= form.select :type_of_building,["Residential","Commercial","Corporate"] %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :status %>
+    <%= form.select :status, ["Online", "Offline", "Intervention" ] %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :date_of_commissioning %>
+    <%= form.date_select :date_of_commissioning %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :date_of_last_inspection %>
+    <%= form.date_select :date_of_last_inspection %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :certificate_of_inspection %>
+    <%= form.text_field :certificate_of_inspection,class:"form-control col-6",placeholder:"Your Certificate Number" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :information %>
+    <%= form.text_field :information,class:"form-control col-6",placeholder:"Additional information" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :notes %>
+    <%= form.text_field :notes,class:"form-control col-6",placeholder:"Notes about the Elevator" ,style: "width: 300px;" %>
+  </div>
+  <br>
+  <br>
+  <div class="actions">
+    <%= form.submit "Create Elevator",class: "btn btn-default" %>
+  </div>
+<% end %>
+<br>
+<br>

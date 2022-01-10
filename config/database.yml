@@ -1,0 +1,24 @@
+default: &default
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: codeboxx   
+  password: Codeboxx1!
+
+development:
+  <<: *default
+  database: SamaelTessier
+  host: codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+  adapter: mysql2
+  port: 3306
+  socket: /var/run/mysqld/mysqld.sock
+  
+secondbase:
+  development:
+    <<: *default
+    database: SamaelTessier
+    host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
+    adapter: postgresql
+    port: 5432
+    
+  
+

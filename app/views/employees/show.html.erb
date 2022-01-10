@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+
+<br/>
+<br/>
+<div class="jumbotron">
+  <h1 class="display-4">
+    <%= @employee.first_name %>
+    <%= @employee.last_name %>
+  </h1>
+  <p class="lead">
+    <%= @employee.title %>
+  </p>
+  <p>
+    Employee ID :
+    <%= @employee.id %> |
+    <%= @employee.email %>
+  </p>
+  <br/>
+  <p class="lead">
+    <%= link_to 'Edit', edit_employee_path(@employee),class:"btn btn-primary" %> 
+    <%= link_to 'Back', employees_path,class:"btn btn-secondary" %>
+  </p>
+</div>
+
+
+

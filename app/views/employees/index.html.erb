@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+<body class="text-center smoothscroll enable-animation">
+
+<h1 class="display-5 fw-bold text-center">Employees List</h1>
+<hr>
+<table class= "container table table-primary table-striped ">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Email</th>
+      <th>Title</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @employees.each do |employee| %>
+      <tr>
+        <td><%= employee.id %></td>
+        <td><%= employee.first_name %></td>
+        <td><%= employee.last_name %></td>
+        <td><%= employee.email %></td>
+        <td><%= employee.title %></td>
+        <td><%= link_to 'Show', employee,class:"btn btn-secondary text-light" %></td>
+        <td><%= link_to 'Edit', edit_employee_path(employee),class:"btn btn-primary text-light" %></td>
+        <td><%= link_to 'Delete', employee,class:"btn btn-danger text-light", method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="text-center">
+<%= link_to 'New Employee', new_employee_path, class:"text-center btn btn-primary text-light" %>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+

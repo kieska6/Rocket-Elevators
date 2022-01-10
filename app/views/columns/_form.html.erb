@@ -1,0 +1,53 @@
+<%= form_with(model: column, local: true) do |form| %>
+  <% if column.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(column.errors.count, "error") %> prohibited this column from being saved:</h2>
+
+      <ul>
+      <% column.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field form-group">
+    <%= form.label :batteryid %>
+    <%= form.number_field :batteryid,class:"form-control col-6",placeholder:"ID of the Battery this Column is in.",style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group" >
+    <%= form.label :type_of_building %>
+    <%= form.select :type_of_building,["Residential","Commercial","Corporate"] %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :number_of_floors_served %>
+    <%= form.number_field :number_of_floors_served,class:"form-control col-6",placeholder:"0" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :status %>
+    <%= form.text_field :status,class:"form-control col-6",placeholder:"Status of Column" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :information %>
+    <%= form.text_field :information,class:"form-control col-6",placeholder:"Additional information" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :notes %>
+    <%= form.text_field :notes,class:"form-control col-6",placeholder:"Notes about the elevator" ,style: "width: 300px;" %>
+  </div>
+  <br>
+  <br>
+  <div class="actions">
+    <%= form.submit "Create Column" ,class: "btn btn-default"%>
+  </div>
+<% end %>
+<br>
+<br>
+
+
+

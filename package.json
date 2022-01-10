@@ -1,0 +1,10 @@
+{
+  "name": "Rocket_Elevators_Information_System",
+  "private": true,
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "^1.19.0"
+  },
+  "devDependencies": {
+    "rrad": "^1.1.0"
+  }
+}

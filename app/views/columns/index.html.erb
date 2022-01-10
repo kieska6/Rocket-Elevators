@@ -1,0 +1,47 @@
+<p id="notice"><%= notice %></p>
+
+<body class="text-center smoothscroll enable-animation">
+
+<h1 class="display-5 fw-bold text-center">Columns</h1>
+
+<table class= "container table table-primary table-striped">
+  <thead>
+    <tr>
+      <th>Batteryid</th>
+      <th>Type of building</th>
+      <th>Number of floors served</th>
+      <th>Status</th>
+      <th>Information</th>
+      <th>Notes</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @columns.each do |column| %>
+      <tr>
+        <td><%= column.batteryid %></td>
+        <td><%= column.type_of_building %></td>
+        <td><%= column.number_of_floors_served %></td>
+        <td><%= column.status %></td>
+        <td><%= column.information %></td>
+        <td><%= column.notes %></td>
+        <td><%= link_to 'Show', column,class:"btn btn-secondary text-light" %></td>
+        <td><%= link_to 'Edit', edit_column_path(column),class:"btn btn-primary text-light" %></td>
+        <td><%= link_to 'Destroy', column,class:"btn btn-danger text-light", method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<div class="text-center">
+<%= link_to 'New Column', new_column_path, class:"text-center btn btn-primary text-light" %>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+

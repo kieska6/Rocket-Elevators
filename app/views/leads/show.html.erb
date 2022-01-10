@@ -1,0 +1,54 @@
+<div class = container>
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <strong>Full name contact:</strong>
+    <%= @lead.full_name_contact %>
+  </p>
+
+  <p>
+    <strong>Company name:</strong>
+    <%= @lead.company_name %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= @lead.email %>
+  </p>
+
+  <p>
+    <strong>Phone:</strong>
+    <%= @lead.phone %>
+  </p>
+
+  <p>
+    <strong>Project name:</strong>
+    <%= @lead.project_name %>
+  </p>
+
+  <p>
+    <strong>Project description:</strong>
+    <%= @lead.project_description %>
+  </p>
+
+  <p>
+    <strong>Department:</strong>
+    <%= @lead.department %>
+  </p>
+
+  <p>
+    <strong>Message:</strong>
+    <%= @lead.message %>
+  </p>
+  <p>
+    <strong>File Attachment:</strong>
+    <%= @lead.file %>
+  </p>
+  <p>
+    <strong>Request Date:</strong>
+    <%= @lead.request_date %>
+  </p>
+
+
+  <%= link_to 'Back', leads_path,class:"btn btn-secondary" %>
+</div>

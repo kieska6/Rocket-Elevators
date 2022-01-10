@@ -1,0 +1,46 @@
+<%= form_with(model: fact_contact, local: true) do |form| %>
+  <% if fact_contact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(fact_contact.errors.count, "error") %> prohibited this fact_contact from being saved:</h2>
+
+      <ul>
+      <% fact_contact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field form-group">
+    <%= form.label :ContactId %>
+    <%= form.number_field :ContactId ,class:"form-control col-6",placeholder:"ID of lead form." ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :Creation_Date %>
+    <%= form.datetime_field :Creation_Date,class:"form-control col-6",placeholder:"Creation date of the form" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :Company_Name %>
+    <%= form.text_field :Company_Name,class:"form-control col-6",placeholder:"Company Name" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :Email %>
+    <%= form.text_field :Email,class:"form-control col-6",placeholder:"Email" ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :Project_Name %>
+    <%= form.text_field :Project_Name,class:"form-control col-6",placeholder:"ID of the Column this Elevator is in." ,style: "width: 300px;" %>
+  </div>
+
+  <div class="field form-group">
+    <%= form.label :dim_time_id %>
+    <%= form.number_field :dim_time_id, class:"form-control col-6",placeholder:"ID of the Column this Elevator is in." ,style: "width: 300px;" %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

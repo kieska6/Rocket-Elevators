@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Dim Times</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dim_times.each do |dim_time| %>
+      <tr>
+        <td><%= link_to 'Show', dim_time %></td>
+        <td><%= link_to 'Edit', edit_dim_time_path(dim_time) %></td>
+        <td><%= link_to 'Destroy', dim_time, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dim Time', new_dim_time_path %>
