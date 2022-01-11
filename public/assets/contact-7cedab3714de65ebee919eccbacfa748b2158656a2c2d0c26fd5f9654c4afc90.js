@@ -1,1 +1,1 @@
-jQuery(_hash).show(),$(document).ready(function(){$("#contact-button").click(function(){alert("Our Contact us Section is presently under maintenance and should be back up soon, for any rush instances please email us all the details at samael.tessier@FakeEmail.com")})});
+jQuery(_hash).show(),$(document).ready(function(){$("#contact-button").click(function(){alert("Our Contact us Section is presently under maintenance and should be back up soon, for any rush instances please email us all the details at kieska@test.com")})});

@@ -7,8 +7,8 @@ describe "users can sign in", :type => :feature do
     context 'signup' do
         it 'signs up a new user' do
             visit'/login'
-            fill_in "user_email", :with => "samael.tessier@gmail.com"
-            fill_in "user_password", :with => "codeboxx2021" 
+            fill_in "user_email", :with => "kieska@test.com"
+            fill_in "user_password", :with => "JesusChrist2022" 
             click_button "Log in"
             expect(page).to have_content "Signed in successfully."
         end
@@ -62,8 +62,8 @@ describe "BackOffice Page Restrictions", :type => :feature do
         end
         it 'can reach the BackOffice page if logged in as admin' do
             visit '/login'
-            fill_in "user_email", :with => "samael.tessier@gmail.com"
-            fill_in "user_password", :with => "codeboxx2021"
+            fill_in "user_email", :with => "kieska@test.com"
+            fill_in "user_password", :with => "JesusChrist2022!"
             click_button "Log in"
             if ((expect(page).to have_content "Signed in successfully.") == true);
                 visit '/admin'

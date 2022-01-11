@@ -6,7 +6,7 @@ default: &default
 
 development:
   <<: *default
-  database: SamaelTessier
+  database: KieranDB
   host: codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com
   adapter: mysql2
   port: 3306
@@ -15,7 +15,7 @@ development:
 secondbase:
   development:
     <<: *default
-    database: SamaelTessier
+    database: KieranDB
     host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
     adapter: postgresql
     port: 5432

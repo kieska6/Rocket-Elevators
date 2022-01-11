@@ -8,7 +8,7 @@ server "3.97.15.74", user: "ubuntu", roles: %w{app db web}
 # server "db.example.com", user: "deploy", roles: %w{db}
 app = ENV['APP']
 if app.nil? or app.empty?
-  app = "SamaelTessier" 
+  app = "KieranDB" 
 end
 set :application, app
 set :rails_env, "development"
@@ -25,9 +25,9 @@ set :linked_files, %w{config/database.yml}
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-role :app, %w{ubuntu@3.97.15.74}
-role :web, %w{ubuntu@3.97.15.74}
-role :db,  %w{ubuntu@3.97.15.74}
+role :app, %w{deploy@161.35.13.165}
+role :web, %w{deploy@161.35.13.165}
+role :db,  %w{deploy@161.35.13.165}
 
 
 
