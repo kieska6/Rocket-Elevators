@@ -1,24 +1,25 @@
 default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: codeboxx   
-  password: Codeboxx1!
+  username: kieska 
 
 development:
   <<: *default
   database: KieranDB
-  host: codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com
   adapter: mysql2
-  port: 3306
+  host: kierandbmysql-do-user-10599195-0.b.db.ondigitalocean.com
+  port: 25060
   socket: /var/run/mysqld/mysqld.sock
+  password: mPCOCzRIJaPjSuux 
+  sslmode: REQUIRED
   
 secondbase:
   development:
     <<: *default
     database: KieranDB
-    host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
     adapter: postgresql
-    port: 5432
+    host: kierandb-do-user-10599195-0.b.db.ondigitalocean.com
+    port: 25060
+    password: wBumpC202CHv87rB 
+    sslmode: require
     
-  
-

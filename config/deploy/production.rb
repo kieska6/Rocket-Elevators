@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server "3.97.15.74", user: "ubuntu", roles: %w{app db web}
+server "161.35.13.165", user: "deploy", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 app = ENV['APP']
@@ -13,7 +13,7 @@ end
 set :application, app
 set :rails_env, "development"
 set :bundle_without, "production"
-set :deploy_to, "/home/ubuntu/apps/#{app}"
+set :deploy_to, "/home/deploy/apps/#{app}"
 set :linked_dirs, %w{tmp/pids tmp/sockets log}
 set :linked_files, %w{config/database.yml}
 
@@ -31,7 +31,7 @@ role :db,  %w{deploy@161.35.13.165}
 
 
 
-# Configuration
+# Configurationgit 
 # =============
 # You can set any configuration variable like in config/deploy.rb
 # These variables are then only loaded and set in this stage.

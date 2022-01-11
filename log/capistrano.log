@@ -1,0 +1,134 @@
+# Logfile created on 2022-01-11 13:19:22 -0500 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-11 13:19:22 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e4a674ca] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as ubuntu@3.97.15.74
+  INFO [98007f19] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [98007f19] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
+ DEBUG [e4a674ca] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-11 13:19:38 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [deb78310] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as ubuntu@3.97.15.74
+ DEBUG [deb78310] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
+  INFO [d9470fdd] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [d9470fdd] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
+ DEBUG [d9470fdd] 	mkdir: cannot create directory ‘/home/ubuntu’: Permission denied
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-11 14:30:16 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8caeae3f] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [8caeae3f] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
+  INFO [8caeae3f] Finished in 5.025 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [352dd45a] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+ DEBUG [352dd45a] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [352dd45a] Finished in 0.175 seconds with exit status 0 (successful).
+  INFO [4b59f5f6] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+ DEBUG [4b59f5f6] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4b59f5f6] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [e3f9d1d8] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+ DEBUG [e3f9d1d8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [e3f9d1d8] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [595a20ef] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [595a20ef] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
+ DEBUG [595a20ef] Finished in 0.148 seconds with exit status 1 (failed).
+ DEBUG [2178a68d] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [2178a68d] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
+ DEBUG [2178a68d] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [5292222f] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+ DEBUG [5292222f] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
+ DEBUG [5292222f] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
+ DEBUG [5292222f] 	Warning: Permanently added 'github.com,140.82.112.3' (ECDSA) to the list of known hosts.
+ DEBUG [5292222f] 	git@github.com: Permission denied (publickey).
+ DEBUG [5292222f] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-11 15:09:58 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d117a61a] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [d117a61a] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
+  INFO [d117a61a] Finished in 6.143 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [5bb7264c] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+ DEBUG [5bb7264c] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [5bb7264c] Finished in 0.173 seconds with exit status 0 (successful).
+  INFO [bf78148f] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+ DEBUG [bf78148f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bf78148f] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [b4f4d30d] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+ DEBUG [b4f4d30d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [b4f4d30d] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [d1c334b7] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [d1c334b7] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
+ DEBUG [d1c334b7] Finished in 0.132 seconds with exit status 1 (failed).
+ DEBUG [fc737dd2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [fc737dd2] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
+ DEBUG [fc737dd2] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [f12f1173] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+ DEBUG [f12f1173] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
+ DEBUG [f12f1173] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
+ DEBUG [f12f1173] 	Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
+ DEBUG [f12f1173] 	git@github.com: Permission denied (publickey).
+ DEBUG [f12f1173] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-11 15:29:14 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [782997b7] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [782997b7] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
+  INFO [782997b7] Finished in 5.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [e8c59176] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+ DEBUG [e8c59176] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [e8c59176] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [d0855214] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+ DEBUG [d0855214] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d0855214] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [6bfee2a9] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+ DEBUG [6bfee2a9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [6bfee2a9] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [33afad9b] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [33afad9b] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
+ DEBUG [33afad9b] Finished in 0.148 seconds with exit status 1 (failed).
+ DEBUG [df456bb2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [df456bb2] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
+ DEBUG [df456bb2] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [4a073aba] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+ DEBUG [4a073aba] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
+ DEBUG [4a073aba] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
+  INFO [4a073aba] Finished in 3.285 seconds with exit status 0 (successful).
+ DEBUG [b7eef9a5] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [b7eef9a5] Command: if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [b7eef9a5] Finished in 0.162 seconds with exit status 0 (successful).
+  INFO [a04b5c3d] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as deploy@161.35.13.165
+ DEBUG [a04b5c3d] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git )
+  INFO [a04b5c3d] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [7090bf74] Running /usr/bin/env git remote update --prune as deploy@161.35.13.165
+ DEBUG [7090bf74] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7090bf74] 	Fetching origin
+  INFO [7090bf74] Finished in 0.509 seconds with exit status 0 (successful).
+ DEBUG [d950e4ae] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [d950e4ae] Command: if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [d950e4ae] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [a77b3f93] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@161.35.13.165
+ DEBUG [a77b3f93] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/releases/20220111202920 )
+  INFO [a77b3f93] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [b8b593a0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@161.35.13.165
+ DEBUG [b8b593a0] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/KieranDB/releases/20220111202920 )
+ DEBUG [b8b593a0] 	fatal: not a valid object name: master
+ DEBUG [b8b593a0] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
