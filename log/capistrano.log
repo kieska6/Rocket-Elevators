@@ -132,3 +132,8 @@ and the repository exists.
  DEBUG [b8b593a0] 	fatal: not a valid object name: master
  DEBUG [b8b593a0] 	tar: This does not look like a tar archive
 tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 09:14:27 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e709efb6] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+ DEBUG [e709efb6] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
