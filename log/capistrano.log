@@ -3,7 +3,7 @@
   INFO START 2022-01-11 13:19:22 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
   INFO [e4a674ca] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as ubuntu@3.97.15.74
-  INFO [98007f19] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [98007f19] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [98007f19] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
  DEBUG [e4a674ca] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
   INFO ---------------------------------------------------------------------------
@@ -11,35 +11,35 @@
   INFO ---------------------------------------------------------------------------
   INFO [deb78310] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as ubuntu@3.97.15.74
  DEBUG [deb78310] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
-  INFO [d9470fdd] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [d9470fdd] Running /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [d9470fdd] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/KieranDB/rvm1scripts/
  DEBUG [d9470fdd] 	mkdir: cannot create directory ‘/home/ubuntu’: Permission denied
   INFO ---------------------------------------------------------------------------
   INFO START 2022-01-11 14:30:16 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
-  INFO [8caeae3f] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [8caeae3f] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [8caeae3f] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
   INFO [8caeae3f] Finished in 5.025 seconds with exit status 0 (successful).
  DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
   INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
-  INFO [352dd45a] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+  INFO [352dd45a] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@138.197.158.6
  DEBUG [352dd45a] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
   INFO [352dd45a] Finished in 0.175 seconds with exit status 0 (successful).
-  INFO [4b59f5f6] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+  INFO [4b59f5f6] Running /usr/bin/env mkdir -p /tmp as deploy@138.197.158.6
  DEBUG [4b59f5f6] Command: /usr/bin/env mkdir -p /tmp
   INFO [4b59f5f6] Finished in 0.110 seconds with exit status 0 (successful).
  DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
   INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
-  INFO [e3f9d1d8] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+  INFO [e3f9d1d8] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@138.197.158.6
  DEBUG [e3f9d1d8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
   INFO [e3f9d1d8] Finished in 0.102 seconds with exit status 0 (successful).
- DEBUG [595a20ef] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [595a20ef] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@138.197.158.6
  DEBUG [595a20ef] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
  DEBUG [595a20ef] Finished in 0.148 seconds with exit status 1 (failed).
- DEBUG [2178a68d] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [2178a68d] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@138.197.158.6
  DEBUG [2178a68d] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
  DEBUG [2178a68d] Finished in 0.102 seconds with exit status 0 (successful).
-  INFO [5292222f] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+  INFO [5292222f] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@138.197.158.6
  DEBUG [5292222f] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
  DEBUG [5292222f] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
  DEBUG [5292222f] 	Warning: Permanently added 'github.com,140.82.112.3' (ECDSA) to the list of known hosts.
@@ -51,29 +51,29 @@ and the repository exists.
   INFO ---------------------------------------------------------------------------
   INFO START 2022-01-11 15:09:58 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
-  INFO [d117a61a] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [d117a61a] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [d117a61a] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
   INFO [d117a61a] Finished in 6.143 seconds with exit status 0 (successful).
  DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
   INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
-  INFO [5bb7264c] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+  INFO [5bb7264c] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@138.197.158.6
  DEBUG [5bb7264c] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
   INFO [5bb7264c] Finished in 0.173 seconds with exit status 0 (successful).
-  INFO [bf78148f] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+  INFO [bf78148f] Running /usr/bin/env mkdir -p /tmp as deploy@138.197.158.6
  DEBUG [bf78148f] Command: /usr/bin/env mkdir -p /tmp
   INFO [bf78148f] Finished in 0.115 seconds with exit status 0 (successful).
  DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
   INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
-  INFO [b4f4d30d] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+  INFO [b4f4d30d] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@138.197.158.6
  DEBUG [b4f4d30d] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
   INFO [b4f4d30d] Finished in 0.074 seconds with exit status 0 (successful).
- DEBUG [d1c334b7] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [d1c334b7] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@138.197.158.6
  DEBUG [d1c334b7] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
  DEBUG [d1c334b7] Finished in 0.132 seconds with exit status 1 (failed).
- DEBUG [fc737dd2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [fc737dd2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@138.197.158.6
  DEBUG [fc737dd2] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
  DEBUG [fc737dd2] Finished in 0.075 seconds with exit status 0 (successful).
-  INFO [f12f1173] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+  INFO [f12f1173] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@138.197.158.6
  DEBUG [f12f1173] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
  DEBUG [f12f1173] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
  DEBUG [f12f1173] 	Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
@@ -85,49 +85,49 @@ and the repository exists.
   INFO ---------------------------------------------------------------------------
   INFO START 2022-01-11 15:29:14 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
-  INFO [782997b7] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [782997b7] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [782997b7] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
   INFO [782997b7] Finished in 5.612 seconds with exit status 0 (successful).
  DEBUG Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
   INFO Uploading /Users/kieska/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
-  INFO [e8c59176] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@161.35.13.165
+  INFO [e8c59176] Running /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh as deploy@138.197.158.6
  DEBUG [e8c59176] Command: /usr/bin/env chmod +x /home/deploy/apps/KieranDB/rvm1scripts/rvm-auto.sh
   INFO [e8c59176] Finished in 0.117 seconds with exit status 0 (successful).
-  INFO [d0855214] Running /usr/bin/env mkdir -p /tmp as deploy@161.35.13.165
+  INFO [d0855214] Running /usr/bin/env mkdir -p /tmp as deploy@138.197.158.6
  DEBUG [d0855214] Command: /usr/bin/env mkdir -p /tmp
   INFO [d0855214] Finished in 0.083 seconds with exit status 0 (successful).
  DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
   INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
-  INFO [6bfee2a9] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@161.35.13.165
+  INFO [6bfee2a9] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as deploy@138.197.158.6
  DEBUG [6bfee2a9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
   INFO [6bfee2a9] Finished in 0.072 seconds with exit status 0 (successful).
- DEBUG [33afad9b] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@161.35.13.165
+ DEBUG [33afad9b] Running [ -f /home/deploy/apps/KieranDB/repo/HEAD ] as deploy@138.197.158.6
  DEBUG [33afad9b] Command: [ -f /home/deploy/apps/KieranDB/repo/HEAD ]
  DEBUG [33afad9b] Finished in 0.148 seconds with exit status 1 (failed).
- DEBUG [df456bb2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [df456bb2] Running if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi as deploy@138.197.158.6
  DEBUG [df456bb2] Command: if test ! -d /home/deploy/apps/KieranDB; then echo "Directory does not exist '/home/deploy/apps/KieranDB'" 1>&2; false; fi
  DEBUG [df456bb2] Finished in 0.077 seconds with exit status 0 (successful).
-  INFO [4a073aba] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@161.35.13.165
+  INFO [4a073aba] Running /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo as deploy@138.197.158.6
  DEBUG [4a073aba] Command: cd /home/deploy/apps/KieranDB && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git clone --mirror git@github.com:kieska6/Rocket-Elevators.git /home/deploy/apps/KieranDB/repo )
  DEBUG [4a073aba] 	Cloning into bare repository '/home/deploy/apps/KieranDB/repo'...
   INFO [4a073aba] Finished in 3.285 seconds with exit status 0 (successful).
- DEBUG [b7eef9a5] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [b7eef9a5] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@138.197.158.6
  DEBUG [b7eef9a5] Command: if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi
  DEBUG [b7eef9a5] Finished in 0.162 seconds with exit status 0 (successful).
-  INFO [a04b5c3d] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as deploy@161.35.13.165
+  INFO [a04b5c3d] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as deploy@138.197.158.6
  DEBUG [a04b5c3d] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git )
   INFO [a04b5c3d] Finished in 0.068 seconds with exit status 0 (successful).
-  INFO [7090bf74] Running /usr/bin/env git remote update --prune as deploy@161.35.13.165
+  INFO [7090bf74] Running /usr/bin/env git remote update --prune as deploy@138.197.158.6
  DEBUG [7090bf74] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote update --prune )
  DEBUG [7090bf74] 	Fetching origin
   INFO [7090bf74] Finished in 0.509 seconds with exit status 0 (successful).
- DEBUG [d950e4ae] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@161.35.13.165
+ DEBUG [d950e4ae] Running if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi as deploy@138.197.158.6
  DEBUG [d950e4ae] Command: if test ! -d /home/deploy/apps/KieranDB/repo; then echo "Directory does not exist '/home/deploy/apps/KieranDB/repo'" 1>&2; false; fi
  DEBUG [d950e4ae] Finished in 0.139 seconds with exit status 0 (successful).
-  INFO [a77b3f93] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@161.35.13.165
+  INFO [a77b3f93] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@138.197.158.6
  DEBUG [a77b3f93] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/releases/20220111202920 )
   INFO [a77b3f93] Finished in 0.073 seconds with exit status 0 (successful).
-  INFO [b8b593a0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@161.35.13.165
+  INFO [b8b593a0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/KieranDB/releases/20220111202920 as deploy@138.197.158.6
  DEBUG [b8b593a0] Command: cd /home/deploy/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/apps/KieranDB/releases/20220111202920 )
  DEBUG [b8b593a0] 	fatal: not a valid object name: master
  DEBUG [b8b593a0] 	tar: This does not look like a tar archive
@@ -135,5 +135,897 @@ tar: Exiting with failure status due to previous errors
   INFO ---------------------------------------------------------------------------
   INFO START 2022-01-13 09:14:27 -0500 cap production deploy
   INFO ---------------------------------------------------------------------------
-  INFO [e709efb6] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@161.35.13.165
+  INFO [e709efb6] Running /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/ as deploy@138.197.158.6
  DEBUG [e709efb6] Command: /usr/bin/env mkdir -p /home/deploy/apps/KieranDB/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 09:52:52 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [94f83671] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [94f83671] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [94f83671] Finished in 4.567 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [4465b966] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [4465b966] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [4465b966] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO [22788280] Running /usr/bin/env mkdir -p /tmp as kieska@138.197.158.6
+ DEBUG [22788280] Command: /usr/bin/env mkdir -p /tmp
+  INFO [22788280] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [6db3757e] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as kieska@138.197.158.6
+ DEBUG [6db3757e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [6db3757e] Finished in 0.086 seconds with exit status 0 (successful).
+ DEBUG [0d3b9fb0] Running [ -f /home/kieska/apps/KieranDB/repo/HEAD ] as kieska@138.197.158.6
+ DEBUG [0d3b9fb0] Command: [ -f /home/kieska/apps/KieranDB/repo/HEAD ]
+ DEBUG [0d3b9fb0] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/kieska/apps/KieranDB/repo
+ DEBUG [cb73bb04] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [cb73bb04] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [cb73bb04] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [8ac9a8d8] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as kieska@138.197.158.6
+ DEBUG [8ac9a8d8] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git )
+  INFO [8ac9a8d8] Finished in 0.392 seconds with exit status 0 (successful).
+  INFO [38eba28d] Running /usr/bin/env git remote update --prune as kieska@138.197.158.6
+ DEBUG [38eba28d] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [38eba28d] 	Fetching origin
+ DEBUG [38eba28d] 	From github.com:kieska6/Rocket-Elevators
+   4e6a456..32ac21c  master     -> master
+  INFO [38eba28d] Finished in 2.111 seconds with exit status 0 (successful).
+ DEBUG [44ebe27c] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [44ebe27c] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [44ebe27c] Finished in 0.254 seconds with exit status 0 (successful).
+  INFO [ebdbb920] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257 as kieska@138.197.158.6
+ DEBUG [ebdbb920] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257 )
+  INFO [ebdbb920] Finished in 0.265 seconds with exit status 0 (successful).
+  INFO [bfadcf85] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113145257 as kieska@138.197.158.6
+ DEBUG [bfadcf85] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113145257 )
+  INFO [bfadcf85] Finished in 1.802 seconds with exit status 0 (successful).
+ DEBUG [8ef8a23e] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [8ef8a23e] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [8ef8a23e] Finished in 0.520 seconds with exit status 0 (successful).
+ DEBUG [7688c01c] Running /usr/bin/env git rev-list --max-count=1 master as kieska@138.197.158.6
+ DEBUG [7688c01c] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [7688c01c] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [7688c01c] Finished in 0.211 seconds with exit status 0 (successful).
+ DEBUG [4f19130e] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [4f19130e] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [4f19130e] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [8b89d01a] Running /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION as kieska@138.197.158.6
+ DEBUG [8b89d01a] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION
+  INFO [8b89d01a] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [2faa0942] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/config as kieska@138.197.158.6
+ DEBUG [2faa0942] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/config
+  INFO [2faa0942] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [d62a9076] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [d62a9076] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml ]
+ DEBUG [d62a9076] Finished in 0.155 seconds with exit status 1 (failed).
+ DEBUG [740d7441] Running [ -f /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [740d7441] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml ]
+ DEBUG [740d7441] Finished in 0.454 seconds with exit status 0 (successful).
+  INFO [a7cfe74b] Running /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml as kieska@138.197.158.6
+ DEBUG [a7cfe74b] Command: /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml
+  INFO [a7cfe74b] Finished in 0.521 seconds with exit status 0 (successful).
+  INFO [77584512] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml as kieska@138.197.158.6
+ DEBUG [77584512] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113145257/config/database.yml
+  INFO [77584512] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [96b589d4] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/tmp /home/kieska/apps/KieranDB/releases/20220113145257 /home/kieska/apps/KieranDB/releases/20220113145257/public as kieska@138.197.158.6
+ DEBUG [96b589d4] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/tmp /home/kieska/apps/KieranDB/releases/20220113145257 /home/kieska/apps/KieranDB/releases/20220113145257/public
+  INFO [96b589d4] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [c18dded8] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [c18dded8] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids ]
+ DEBUG [c18dded8] Finished in 0.196 seconds with exit status 1 (failed).
+ DEBUG [4155bfd6] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [4155bfd6] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids ]
+ DEBUG [4155bfd6] Finished in 0.122 seconds with exit status 1 (failed).
+  INFO [3b4cc9a6] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids as kieska@138.197.158.6
+ DEBUG [3b4cc9a6] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113145257/tmp/pids
+  INFO [3b4cc9a6] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [14477cd4] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [14477cd4] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets ]
+ DEBUG [14477cd4] Finished in 0.115 seconds with exit status 1 (failed).
+ DEBUG [1594c168] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [1594c168] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets ]
+ DEBUG [1594c168] Finished in 0.155 seconds with exit status 1 (failed).
+  INFO [7cafa94b] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets as kieska@138.197.158.6
+ DEBUG [7cafa94b] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113145257/tmp/sockets
+  INFO [7cafa94b] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [2467aeef] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145257/log ] as kieska@138.197.158.6
+ DEBUG [2467aeef] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145257/log ]
+ DEBUG [2467aeef] Finished in 0.150 seconds with exit status 1 (failed).
+ DEBUG [58c0d78d] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145257/log ] as kieska@138.197.158.6
+ DEBUG [58c0d78d] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145257/log ]
+ DEBUG [58c0d78d] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [cc8bca15] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145257/log as kieska@138.197.158.6
+ DEBUG [cc8bca15] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145257/log
+  INFO [cc8bca15] Finished in 0.432 seconds with exit status 0 (successful).
+  INFO [11347784] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113145257/log as kieska@138.197.158.6
+ DEBUG [11347784] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113145257/log
+  INFO [11347784] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG [47b35760] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145257/public/assets ] as kieska@138.197.158.6
+ DEBUG [47b35760] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145257/public/assets ]
+ DEBUG [47b35760] Finished in 0.079 seconds with exit status 1 (failed).
+ DEBUG [301e5576] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145257/public/assets ] as kieska@138.197.158.6
+ DEBUG [301e5576] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145257/public/assets ]
+ DEBUG [301e5576] Finished in 0.135 seconds with exit status 0 (successful).
+  INFO [1363390d] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145257/public/assets as kieska@138.197.158.6
+ DEBUG [1363390d] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145257/public/assets
+  INFO [1363390d] Finished in 0.179 seconds with exit status 0 (successful).
+  INFO [7611d373] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113145257/public/assets as kieska@138.197.158.6
+ DEBUG [7611d373] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113145257/public/assets
+  INFO [7611d373] Finished in 0.347 seconds with exit status 0 (successful).
+ DEBUG [cdb1b3c6] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [cdb1b3c6] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [cdb1b3c6] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [b9c685ab] Running /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install . as kieska@138.197.158.6
+ DEBUG [b9c685ab] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [b9c685ab] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [b9c685ab] Finished in 0.929 seconds with exit status 0 (successful).
+  INFO [1b39f70a] Running /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD as kieska@138.197.158.6
+ DEBUG [1b39f70a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD )
+ DEBUG [1b39f70a] 	32ac21cddb51d2210882bf376b3df09d673381cd	HEAD
+  INFO [1b39f70a] Finished in 0.852 seconds with exit status 0 (successful).
+  INFO [12ac581f] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [12ac581f] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases
+  INFO [12ac581f] Finished in 0.452 seconds with exit status 0 (successful).
+  INFO [5f887781] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets as kieska@138.197.158.6
+ DEBUG [5f887781] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets
+  INFO [5f887781] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [b44d661d] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config as kieska@138.197.158.6
+ DEBUG [b44d661d] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config
+  INFO [b44d661d] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [2018782e] Running [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [2018782e] Command: [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ]
+ DEBUG [2018782e] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [0c682d03] Running [ -f /home/kieska/apps/KieranDB/shared/puma.rb ] as kieska@138.197.158.6
+ DEBUG [0c682d03] Command: [ -f /home/kieska/apps/KieranDB/shared/puma.rb ]
+ DEBUG [0c682d03] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [5fd5824e] Running [ -f /home/kieska/apps/KieranDB/releases/20220113145257/REVISION ] as kieska@138.197.158.6
+ DEBUG [5fd5824e] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113145257/REVISION ]
+ DEBUG [5fd5824e] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG [5925cd0d] Running /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113145257/REVISION 2>/dev/null as kieska@138.197.158.6
+ DEBUG [5925cd0d] Command: /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113145257/REVISION 2>/dev/null
+ DEBUG [5925cd0d] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [5925cd0d] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [426c5a14] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [426c5a14] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [426c5a14] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [1acd7980] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as kieska@138.197.158.6
+ DEBUG [1acd7980] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+  INFO [1acd7980] Finished in 1.183 seconds with exit status 0 (successful).
+  INFO [67091a0d] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle as kieska@138.197.158.6
+ DEBUG [67091a0d] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle
+  INFO [67091a0d] Finished in 0.925 seconds with exit status 0 (successful).
+  INFO [378136ff] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production as kieska@138.197.158.6
+ DEBUG [378136ff] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production
+  INFO [378136ff] Finished in 1.364 seconds with exit status 0 (successful).
+ DEBUG [3348e559] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [3348e559] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [3348e559] Finished in 0.679 seconds with exit status 0 (successful).
+ DEBUG [d5996d1a] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check as kieska@138.197.158.6
+ DEBUG [d5996d1a] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [d5996d1a] 	The Gemfile's dependencies are satisfied
+ DEBUG [d5996d1a] Finished in 1.317 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [73f61633] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [73f61633] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [73f61633] Finished in 0.615 seconds with exit status 0 (successful).
+  INFO [c0700468] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile as kieska@138.197.158.6
+ DEBUG [c0700468] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && ( export RAILS_ENV="development" RAILS_GROUPS="" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile )
+ DEBUG [c0700468] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [c0700468] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+ DEBUG [c0700468] 	yarn install v1.22.17
+ DEBUG [c0700468] 	warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+ DEBUG [c0700468] 	[1/4] Resolving packages...
+ DEBUG [c0700468] 	[2/4] Fetching packages...
+ DEBUG [c0700468] 	[3/4] Linking dependencies...
+ DEBUG [c0700468] 	warning "microsoft-cognitiveservices-speech-sdk > asn1.js-rfc2560@5.0.1" has unmet peer dependency "asn1.js@^5.0.0".
+ DEBUG [c0700468] 	[4/4] Building fresh packages...
+ DEBUG [c0700468] 	success Saved lockfile.
+ DEBUG [c0700468] 	Done in 25.32s.
+ DEBUG [c0700468] 	W, [2022-01-13T14:53:48.447314 #103149]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113145257/app/assets/javascripts/bootstrap.min.js
+ DEBUG [c0700468] 	W, [2022-01-13T14:53:48.463207 #103149]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113145257/vendor/assets/javascripts/scripts.js
+ DEBUG [c0700468] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145257/vendor/assets/stylesheets/essentials.css:1300:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145257/vendor/assets/stylesheets/essentials.css:1311:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [c0700468] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145257/vendor/assets/stylesheets/settings.css:1302:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [c0700468] 	I, [2022-01-13T14:54:04.182757 #103149]  INFO -- : Writing /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/employee-of-the-month-85cd70fdc3966cc392b085a917db786a86f959ce02949fb8e67e4c1cc4671840.jpg
+ DEBUG [c0700468] 	I, [2022-01-13T14:54:04.201667 #103149]  INFO -- : Writing /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/contact-3b1d1f386646a772e015e0cfe1e51e735152374c65dd5e0c27d6eaa47a3ea7ae.js
+ DEBUG [c0700468] 	I, [2022-01-13T14:54:04.201892 #103149]  INFO -- : Writing /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/contact-3b1d1f386646a772e015e0cfe1e51e735152374c65dd5e0c27d6eaa47a3ea7ae.js.gz
+ DEBUG [c0700468] 	W, [2022-01-13T14:54:04.301211 #103149]  WARN -- : Removed sourceMappingURL comment for missing asset 'rails_admin/jquery-migrate.min.map' from /home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/rails_admin-2.2.1/app/assets/javascripts/rails_admin/jquery.migrate.js
+  INFO [c0700468] Finished in 49.458 seconds with exit status 0 (successful).
+ DEBUG [6722bfa1] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [6722bfa1] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [6722bfa1] Finished in 0.220 seconds with exit status 0 (successful).
+  INFO [6c8eeee7] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [6c8eeee7] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145257/assets_manifest_backup
+  INFO [6c8eeee7] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [de6dd21f] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [de6dd21f] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest*
+ DEBUG [de6dd21f] 	/home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [de6dd21f] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [ad907f05] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [ad907f05] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest*
+ DEBUG [ad907f05] 	/home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [ad907f05] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [1bc1d19f] Running /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113145257/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [1bc1d19f] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113145257/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113145257/assets_manifest_backup
+  INFO [1bc1d19f] Finished in 0.182 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [2d59eb3c] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [2d59eb3c] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145257; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145257'" 1>&2; false; fi
+ DEBUG [2d59eb3c] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [754a7e40] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate as kieska@138.197.158.6
+ DEBUG [754a7e40] Command: cd /home/kieska/apps/KieranDB/releases/20220113145257 && ( export RAILS_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate )
+ DEBUG [754a7e40] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [754a7e40] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+  INFO [754a7e40] Finished in 5.971 seconds with exit status 0 (successful).
+  INFO [18ce08e7] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113145257 /home/kieska/apps/KieranDB/releases/current as kieska@138.197.158.6
+ DEBUG [18ce08e7] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113145257 /home/kieska/apps/KieranDB/releases/current
+  INFO [18ce08e7] Finished in 0.234 seconds with exit status 0 (successful).
+  INFO [0bbf006b] Running /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB as kieska@138.197.158.6
+ DEBUG [0bbf006b] Command: /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB
+  INFO [0bbf006b] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [0c885fad] Running /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [0c885fad] Command: /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases
+ DEBUG [0c885fad] 	20220112160717	20220112163238	20220112163558	20220112181736	20220112182152
+20220112182241	20220112182659	20220112183412	20220112184237	20220112184440
+20220112184958	20220112190547	20220112191925	20220112200148	20220112201539
+20220113045531	20220113133528	20220113134357	20220113145257
+ DEBUG [0c885fad] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 19 deployed releases on 138.197.158.6
+ DEBUG [ac257437] Running [ -d /home/kieska/apps/KieranDB/current ] as kieska@138.197.158.6
+ DEBUG [ac257437] Command: [ -d /home/kieska/apps/KieranDB/current ]
+ DEBUG [ac257437] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [10765aee] Running /usr/bin/env readlink /home/kieska/apps/KieranDB/current as kieska@138.197.158.6
+ DEBUG [10765aee] Command: /usr/bin/env readlink /home/kieska/apps/KieranDB/current
+ DEBUG [10765aee] 	/home/kieska/apps/KieranDB/releases/20220113145257
+ DEBUG [10765aee] Finished in 0.437 seconds with exit status 0 (successful).
+  INFO [65bd6936] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220112160717 /home/kieska/apps/KieranDB/releases/20220112163238 /home/kieska/apps/KieranDB/releases/20220112163558 /home/kieska/apps/KieranDB/releases/20220112181736 /home/kieska/apps/KieranDB/releases/20220112182152 /home/kieska/apps/KieranDB/releases/20220112182241 /home/kieska/apps/KieranDB/releases/20220112182659 /home/kieska/apps/KieranDB/releases/20220112183412 /home/kieska/apps/KieranDB/releases/20220112184237 /home/kieska/apps/KieranDB/releases/20220112184440 /home/kieska/apps/KieranDB/releases/20220112184958 /home/kieska/apps/KieranDB/releases/20220112190547 /home/kieska/apps/KieranDB/releases/20220112191925 /home/kieska/apps/KieranDB/releases/20220112200148 as kieska@138.197.158.6
+ DEBUG [65bd6936] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220112160717 /home/kieska/apps/KieranDB/releases/20220112163238 /home/kieska/apps/KieranDB/releases/20220112163558 /home/kieska/apps/KieranDB/releases/20220112181736 /home/kieska/apps/KieranDB/releases/20220112182152 /home/kieska/apps/KieranDB/releases/20220112182241 /home/kieska/apps/KieranDB/releases/20220112182659 /home/kieska/apps/KieranDB/releases/20220112183412 /home/kieska/apps/KieranDB/releases/20220112184237 /home/kieska/apps/KieranDB/releases/20220112184440 /home/kieska/apps/KieranDB/releases/20220112184958 /home/kieska/apps/KieranDB/releases/20220112190547 /home/kieska/apps/KieranDB/releases/20220112191925 /home/kieska/apps/KieranDB/releases/20220112200148
+  INFO [65bd6936] Finished in 2.563 seconds with exit status 0 (successful).
+ DEBUG [c89d9072] Running if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [c89d9072] Command: if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi
+ DEBUG [c89d9072] Finished in 0.239 seconds with exit status 0 (successful).
+  INFO [fd54504a] Running /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113145257 by kieska" >> /home/kieska/apps/KieranDB/revisions.log as kieska@138.197.158.6
+ DEBUG [fd54504a] Command: cd /home/kieska/apps/KieranDB/releases && /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113145257 by kieska" >> /home/kieska/apps/KieranDB/revisions.log
+  INFO [fd54504a] Finished in 0.313 seconds with exit status 0 (successful).
+ DEBUG [13c1bf31] Running if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [13c1bf31] Command: if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi
+ DEBUG [13c1bf31] Finished in 0.314 seconds with exit status 0 (successful).
+ DEBUG [1cee3a90] Running [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ] as kieska@138.197.158.6
+ DEBUG [1cee3a90] Command: [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ]
+ DEBUG [1cee3a90] Finished in 0.245 seconds with exit status 1 (failed).
+ DEBUG [14c1b227] Running [ -f /home/kieska/apps/KieranDB/shared/puma.rb ] as kieska@138.197.158.6
+ DEBUG [14c1b227] Command: [ -f /home/kieska/apps/KieranDB/shared/puma.rb ]
+ DEBUG [14c1b227] Finished in 0.243 seconds with exit status 0 (successful).
+  INFO using conf file /home/kieska/apps/KieranDB/shared/puma.rb
+ DEBUG [fdc1fe99] Running [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ] as kieska@138.197.158.6
+ DEBUG [fdc1fe99] Command: [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ]
+ DEBUG [fdc1fe99] Finished in 0.285 seconds with exit status 1 (failed).
+ DEBUG [94d515e3] Running if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [94d515e3] Command: if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi
+ DEBUG [94d515e3] Finished in 0.261 seconds with exit status 0 (successful).
+  INFO [97cbb485] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec puma -C /home/kieska/apps/KieranDB/shared/puma.rb --daemon as kieska@138.197.158.6
+ DEBUG [97cbb485] Command: cd /home/kieska/apps/KieranDB/current && ( export RACK_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec puma -C /home/kieska/apps/KieranDB/shared/puma.rb --daemon )
+ DEBUG [97cbb485] 	Puma starting in single mode...
+* Version 3.12.6 (ruby 2.6.6-p146), codename: Llamas in Pajamas
+* Min threads: 0, max threads: 16
+* Environment: development
+* Daemonizing...
+  INFO [97cbb485] Finished in 2.225 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 09:56:16 -0500 cap production puma:config
+  INFO ---------------------------------------------------------------------------
+  INFO [4267ffcc] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [4267ffcc] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [4267ffcc] Finished in 4.669 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [e2ea3023] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [e2ea3023] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [e2ea3023] Finished in 0.111 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/kieska/apps/KieranDB/shared/puma.rb 0.0%
+  INFO Uploading /home/kieska/apps/KieranDB/shared/puma.rb 100.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 09:56:32 -0500 cap production puma:nginx_config
+  INFO ---------------------------------------------------------------------------
+  INFO [6fd2f801] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [6fd2f801] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [6fd2f801] Finished in 4.570 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [0642bb5e] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [0642bb5e] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [0642bb5e] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/nginx_KieranDB_production 0.0%
+  INFO Uploading /tmp/nginx_KieranDB_production 100.0%
+  INFO [f1a844fa] Running /usr/bin/env sudo mv /tmp/nginx_KieranDB_production /etc/nginx/sites-available/KieranDB_production as kieska@138.197.158.6
+ DEBUG [f1a844fa] Command: /usr/bin/env sudo mv /tmp/nginx_KieranDB_production /etc/nginx/sites-available/KieranDB_production
+  INFO [f1a844fa] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [2dfa2c90] Running /usr/bin/env sudo ln -fs /etc/nginx/sites-available/KieranDB_production /etc/nginx/sites-enabled/KieranDB_production as kieska@138.197.158.6
+ DEBUG [2dfa2c90] Command: /usr/bin/env sudo ln -fs /etc/nginx/sites-available/KieranDB_production /etc/nginx/sites-enabled/KieranDB_production
+  INFO [2dfa2c90] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 09:56:42 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a6a201b7] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [a6a201b7] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [a6a201b7] Finished in 4.337 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [0a971c63] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [0a971c63] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [0a971c63] Finished in 0.272 seconds with exit status 0 (successful).
+  INFO [b2bd067d] Running /usr/bin/env mkdir -p /tmp as kieska@138.197.158.6
+ DEBUG [b2bd067d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b2bd067d] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [d6935028] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as kieska@138.197.158.6
+ DEBUG [d6935028] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [d6935028] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [835a9f98] Running [ -f /home/kieska/apps/KieranDB/repo/HEAD ] as kieska@138.197.158.6
+ DEBUG [835a9f98] Command: [ -f /home/kieska/apps/KieranDB/repo/HEAD ]
+ DEBUG [835a9f98] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/kieska/apps/KieranDB/repo
+ DEBUG [7639f2aa] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [7639f2aa] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [7639f2aa] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [9389d7e4] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as kieska@138.197.158.6
+ DEBUG [9389d7e4] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git )
+  INFO [9389d7e4] Finished in 0.157 seconds with exit status 0 (successful).
+  INFO [4f3fe3a2] Running /usr/bin/env git remote update --prune as kieska@138.197.158.6
+ DEBUG [4f3fe3a2] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4f3fe3a2] 	Fetching origin
+  INFO [4f3fe3a2] Finished in 0.563 seconds with exit status 0 (successful).
+ DEBUG [90ffa778] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [90ffa778] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [90ffa778] Finished in 0.165 seconds with exit status 0 (successful).
+  INFO [77bbdeaa] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646 as kieska@138.197.158.6
+ DEBUG [77bbdeaa] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646 )
+  INFO [77bbdeaa] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [f71de9d2] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113145646 as kieska@138.197.158.6
+ DEBUG [f71de9d2] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113145646 )
+  INFO [f71de9d2] Finished in 1.684 seconds with exit status 0 (successful).
+ DEBUG [1d0a538b] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [1d0a538b] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [1d0a538b] Finished in 0.240 seconds with exit status 0 (successful).
+ DEBUG [985f1138] Running /usr/bin/env git rev-list --max-count=1 master as kieska@138.197.158.6
+ DEBUG [985f1138] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [985f1138] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [985f1138] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [c8eb231a] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [c8eb231a] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [c8eb231a] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [d64e39fd] Running /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION as kieska@138.197.158.6
+ DEBUG [d64e39fd] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION
+  INFO [d64e39fd] Finished in 0.122 seconds with exit status 0 (successful).
+  INFO [8f06094e] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/config as kieska@138.197.158.6
+ DEBUG [8f06094e] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/config
+  INFO [8f06094e] Finished in 0.176 seconds with exit status 0 (successful).
+ DEBUG [9f623730] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [9f623730] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml ]
+ DEBUG [9f623730] Finished in 0.108 seconds with exit status 1 (failed).
+ DEBUG [ac6e5b3d] Running [ -f /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [ac6e5b3d] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml ]
+ DEBUG [ac6e5b3d] Finished in 0.245 seconds with exit status 0 (successful).
+  INFO [4af94534] Running /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml as kieska@138.197.158.6
+ DEBUG [4af94534] Command: /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml
+  INFO [4af94534] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [48391a73] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml as kieska@138.197.158.6
+ DEBUG [48391a73] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113145646/config/database.yml
+  INFO [48391a73] Finished in 0.146 seconds with exit status 0 (successful).
+  INFO [cde4fd73] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/tmp /home/kieska/apps/KieranDB/releases/20220113145646 /home/kieska/apps/KieranDB/releases/20220113145646/public as kieska@138.197.158.6
+ DEBUG [cde4fd73] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/tmp /home/kieska/apps/KieranDB/releases/20220113145646 /home/kieska/apps/KieranDB/releases/20220113145646/public
+  INFO [cde4fd73] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [948da626] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [948da626] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids ]
+ DEBUG [948da626] Finished in 0.189 seconds with exit status 1 (failed).
+ DEBUG [78f12126] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [78f12126] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids ]
+ DEBUG [78f12126] Finished in 0.104 seconds with exit status 1 (failed).
+  INFO [3aaf76d9] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids as kieska@138.197.158.6
+ DEBUG [3aaf76d9] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113145646/tmp/pids
+  INFO [3aaf76d9] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [78de08ea] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [78de08ea] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets ]
+ DEBUG [78de08ea] Finished in 0.114 seconds with exit status 1 (failed).
+ DEBUG [2a865722] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [2a865722] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets ]
+ DEBUG [2a865722] Finished in 0.180 seconds with exit status 1 (failed).
+  INFO [3efe0470] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets as kieska@138.197.158.6
+ DEBUG [3efe0470] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113145646/tmp/sockets
+  INFO [3efe0470] Finished in 0.129 seconds with exit status 0 (successful).
+ DEBUG [4a6fb927] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145646/log ] as kieska@138.197.158.6
+ DEBUG [4a6fb927] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145646/log ]
+ DEBUG [4a6fb927] Finished in 0.175 seconds with exit status 1 (failed).
+ DEBUG [4b626a05] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145646/log ] as kieska@138.197.158.6
+ DEBUG [4b626a05] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145646/log ]
+ DEBUG [4b626a05] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [56fd5552] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145646/log as kieska@138.197.158.6
+ DEBUG [56fd5552] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145646/log
+  INFO [56fd5552] Finished in 0.178 seconds with exit status 0 (successful).
+  INFO [e47992bf] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113145646/log as kieska@138.197.158.6
+ DEBUG [e47992bf] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113145646/log
+  INFO [e47992bf] Finished in 0.227 seconds with exit status 0 (successful).
+ DEBUG [72f5b993] Running [ -L /home/kieska/apps/KieranDB/releases/20220113145646/public/assets ] as kieska@138.197.158.6
+ DEBUG [72f5b993] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113145646/public/assets ]
+ DEBUG [72f5b993] Finished in 0.119 seconds with exit status 1 (failed).
+ DEBUG [0ecdc9c0] Running [ -d /home/kieska/apps/KieranDB/releases/20220113145646/public/assets ] as kieska@138.197.158.6
+ DEBUG [0ecdc9c0] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113145646/public/assets ]
+ DEBUG [0ecdc9c0] Finished in 0.217 seconds with exit status 0 (successful).
+  INFO [3daaf5a6] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145646/public/assets as kieska@138.197.158.6
+ DEBUG [3daaf5a6] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113145646/public/assets
+  INFO [3daaf5a6] Finished in 0.131 seconds with exit status 0 (successful).
+  INFO [218cf2d4] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113145646/public/assets as kieska@138.197.158.6
+ DEBUG [218cf2d4] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113145646/public/assets
+  INFO [218cf2d4] Finished in 0.166 seconds with exit status 0 (successful).
+ DEBUG [05ccab52] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [05ccab52] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [05ccab52] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [6d493d19] Running /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install . as kieska@138.197.158.6
+ DEBUG [6d493d19] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [6d493d19] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [6d493d19] Finished in 0.583 seconds with exit status 0 (successful).
+  INFO [09e71963] Running /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD as kieska@138.197.158.6
+ DEBUG [09e71963] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD )
+ DEBUG [09e71963] 	32ac21cddb51d2210882bf376b3df09d673381cd	HEAD
+  INFO [09e71963] Finished in 0.642 seconds with exit status 0 (successful).
+  INFO [15d21ed9] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [15d21ed9] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases
+  INFO [15d21ed9] Finished in 0.158 seconds with exit status 0 (successful).
+  INFO [a2c10881] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets as kieska@138.197.158.6
+ DEBUG [a2c10881] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets
+  INFO [a2c10881] Finished in 0.336 seconds with exit status 0 (successful).
+  INFO [48322ac7] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config as kieska@138.197.158.6
+ DEBUG [48322ac7] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config
+  INFO [48322ac7] Finished in 0.217 seconds with exit status 0 (successful).
+ DEBUG [8937c486] Running [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [8937c486] Command: [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ]
+ DEBUG [8937c486] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [c0fe27b8] Running [ -f /home/kieska/apps/KieranDB/shared/puma.rb ] as kieska@138.197.158.6
+ DEBUG [c0fe27b8] Command: [ -f /home/kieska/apps/KieranDB/shared/puma.rb ]
+ DEBUG [c0fe27b8] Finished in 0.170 seconds with exit status 0 (successful).
+ DEBUG [e3509a19] Running [ -f /home/kieska/apps/KieranDB/releases/20220113145646/REVISION ] as kieska@138.197.158.6
+ DEBUG [e3509a19] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113145646/REVISION ]
+ DEBUG [e3509a19] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [d98e5031] Running /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113145646/REVISION 2>/dev/null as kieska@138.197.158.6
+ DEBUG [d98e5031] Command: /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113145646/REVISION 2>/dev/null
+ DEBUG [d98e5031] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [d98e5031] Finished in 0.158 seconds with exit status 0 (successful).
+ DEBUG [3d2190e0] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [3d2190e0] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [3d2190e0] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [f52d9e74] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as kieska@138.197.158.6
+ DEBUG [f52d9e74] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+  INFO [f52d9e74] Finished in 1.172 seconds with exit status 0 (successful).
+  INFO [ccffb72c] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle as kieska@138.197.158.6
+ DEBUG [ccffb72c] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle
+  INFO [ccffb72c] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [e54e11c8] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production as kieska@138.197.158.6
+ DEBUG [e54e11c8] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production
+  INFO [e54e11c8] Finished in 1.162 seconds with exit status 0 (successful).
+ DEBUG [6dd01d4b] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [6dd01d4b] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [6dd01d4b] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [0b4f6bc2] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check as kieska@138.197.158.6
+ DEBUG [0b4f6bc2] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [0b4f6bc2] 	The Gemfile's dependencies are satisfied
+ DEBUG [0b4f6bc2] Finished in 1.355 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [18dd37d3] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [18dd37d3] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [18dd37d3] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [e499781c] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile as kieska@138.197.158.6
+ DEBUG [e499781c] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && ( export RAILS_ENV="development" RAILS_GROUPS="" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile )
+ DEBUG [e499781c] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [e499781c] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+ DEBUG [e499781c] 	yarn install v1.22.17
+ DEBUG [e499781c] 	warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+ DEBUG [e499781c] 	[1/4] Resolving packages...
+ DEBUG [e499781c] 	[2/4] Fetching packages...
+ DEBUG [e499781c] 	[3/4] Linking dependencies...
+ DEBUG [e499781c] 	warning "microsoft-cognitiveservices-speech-sdk > asn1.js-rfc2560@5.0.1" has unmet peer dependency "asn1.js@^5.0.0".
+ DEBUG [e499781c] 	[4/4] Building fresh packages...
+ DEBUG [e499781c] 	success Saved lockfile.
+ DEBUG [e499781c] 	Done in 22.41s.
+ DEBUG [e499781c] 	W, [2022-01-13T14:57:31.016372 #107789]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113145646/app/assets/javascripts/bootstrap.min.js
+ DEBUG [e499781c] 	W, [2022-01-13T14:57:31.030474 #107789]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113145646/vendor/assets/javascripts/scripts.js
+ DEBUG [e499781c] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145646/vendor/assets/stylesheets/essentials.css:1300:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145646/vendor/assets/stylesheets/essentials.css:1311:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [e499781c] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113145646/vendor/assets/stylesheets/settings.css:1302:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [e499781c] 	W, [2022-01-13T14:57:46.615473 #107789]  WARN -- : Removed sourceMappingURL comment for missing asset 'rails_admin/jquery-migrate.min.map' from /home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/rails_admin-2.2.1/app/assets/javascripts/rails_admin/jquery.migrate.js
+  INFO [e499781c] Finished in 46.387 seconds with exit status 0 (successful).
+ DEBUG [fe05c8e5] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [fe05c8e5] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [fe05c8e5] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [4476f7f0] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [4476f7f0] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113145646/assets_manifest_backup
+  INFO [4476f7f0] Finished in 0.170 seconds with exit status 0 (successful).
+ DEBUG [0a989e02] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [0a989e02] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest*
+ DEBUG [0a989e02] 	/home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [0a989e02] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [b60068ce] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [b60068ce] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest*
+ DEBUG [b60068ce] 	/home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [b60068ce] Finished in 0.139 seconds with exit status 0 (successful).
+  INFO [21ecdd52] Running /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113145646/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [21ecdd52] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113145646/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113145646/assets_manifest_backup
+  INFO [21ecdd52] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [38b2317b] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [38b2317b] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113145646; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113145646'" 1>&2; false; fi
+ DEBUG [38b2317b] Finished in 0.165 seconds with exit status 0 (successful).
+  INFO [ac86cdf9] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate as kieska@138.197.158.6
+ DEBUG [ac86cdf9] Command: cd /home/kieska/apps/KieranDB/releases/20220113145646 && ( export RAILS_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate )
+ DEBUG [ac86cdf9] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [ac86cdf9] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+  INFO [ac86cdf9] Finished in 5.738 seconds with exit status 0 (successful).
+  INFO [38c7ed33] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113145646 /home/kieska/apps/KieranDB/releases/current as kieska@138.197.158.6
+ DEBUG [38c7ed33] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113145646 /home/kieska/apps/KieranDB/releases/current
+  INFO [38c7ed33] Finished in 0.251 seconds with exit status 0 (successful).
+  INFO [33b6b8d8] Running /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB as kieska@138.197.158.6
+ DEBUG [33b6b8d8] Command: /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB
+  INFO [33b6b8d8] Finished in 0.103 seconds with exit status 0 (successful).
+ DEBUG [81a58892] Running /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [81a58892] Command: /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases
+ DEBUG [81a58892] 	20220112201539	20220113045531	20220113133528	20220113134357	20220113145257
+20220113145646
+ DEBUG [81a58892] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 138.197.158.6
+ DEBUG [42eaf626] Running [ -d /home/kieska/apps/KieranDB/current ] as kieska@138.197.158.6
+ DEBUG [42eaf626] Command: [ -d /home/kieska/apps/KieranDB/current ]
+ DEBUG [42eaf626] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [e49c9fed] Running /usr/bin/env readlink /home/kieska/apps/KieranDB/current as kieska@138.197.158.6
+ DEBUG [e49c9fed] Command: /usr/bin/env readlink /home/kieska/apps/KieranDB/current
+ DEBUG [e49c9fed] 	/home/kieska/apps/KieranDB/releases/20220113145646
+ DEBUG [e49c9fed] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [5e881a41] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220112201539 as kieska@138.197.158.6
+ DEBUG [5e881a41] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220112201539
+  INFO [5e881a41] Finished in 0.615 seconds with exit status 0 (successful).
+ DEBUG [c53b7df9] Running if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [c53b7df9] Command: if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi
+ DEBUG [c53b7df9] Finished in 0.161 seconds with exit status 0 (successful).
+  INFO [cdc70bf7] Running /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113145646 by kieska" >> /home/kieska/apps/KieranDB/revisions.log as kieska@138.197.158.6
+ DEBUG [cdc70bf7] Command: cd /home/kieska/apps/KieranDB/releases && /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113145646 by kieska" >> /home/kieska/apps/KieranDB/revisions.log
+  INFO [cdc70bf7] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [fb3f0e4d] Running if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [fb3f0e4d] Command: if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi
+ DEBUG [fb3f0e4d] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [bb09f132] Running [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ] as kieska@138.197.158.6
+ DEBUG [bb09f132] Command: [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ]
+ DEBUG [bb09f132] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [bd802ea1] Running /usr/bin/env kill -0 $( cat /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ) as kieska@138.197.158.6
+ DEBUG [bd802ea1] Command: cd /home/kieska/apps/KieranDB/current && ( export RACK_ENV="development" ; /usr/bin/env kill -0 $( cat /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ) )
+ DEBUG [bd802ea1] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [eb7a07a5] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec pumactl -S /home/kieska/apps/KieranDB/shared/tmp/pids/puma.state -F /home/kieska/apps/KieranDB/shared/puma.rb restart as kieska@138.197.158.6
+ DEBUG [eb7a07a5] Command: cd /home/kieska/apps/KieranDB/current && ( export RACK_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec pumactl -S /home/kieska/apps/KieranDB/shared/tmp/pids/puma.state -F /home/kieska/apps/KieranDB/shared/puma.rb restart )
+ DEBUG [eb7a07a5] 	Command restart sent success
+  INFO [eb7a07a5] Finished in 1.480 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 10:06:48 -0500 cap production puma:config
+  INFO ---------------------------------------------------------------------------
+  INFO [6cf6c61c] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [6cf6c61c] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [6cf6c61c] Finished in 9.775 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [d1af4625] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [d1af4625] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [d1af4625] Finished in 0.221 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/kieska/apps/KieranDB/shared/puma.rb 0.0%
+  INFO Uploading /home/kieska/apps/KieranDB/shared/puma.rb 100.0%
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 10:07:03 -0500 cap production puma:nginx_config
+  INFO ---------------------------------------------------------------------------
+  INFO [d05a6380] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [d05a6380] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [d05a6380] Finished in 5.022 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [1c8f466a] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [1c8f466a] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [1c8f466a] Finished in 0.273 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/nginx_KieranDB_production 0.0%
+  INFO Uploading /tmp/nginx_KieranDB_production 100.0%
+  INFO [a9a1a790] Running /usr/bin/env sudo mv /tmp/nginx_KieranDB_production /etc/nginx/sites-available/KieranDB_production as kieska@138.197.158.6
+ DEBUG [a9a1a790] Command: /usr/bin/env sudo mv /tmp/nginx_KieranDB_production /etc/nginx/sites-available/KieranDB_production
+  INFO [a9a1a790] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [f67b6453] Running /usr/bin/env sudo ln -fs /etc/nginx/sites-available/KieranDB_production /etc/nginx/sites-enabled/KieranDB_production as kieska@138.197.158.6
+ DEBUG [f67b6453] Command: /usr/bin/env sudo ln -fs /etc/nginx/sites-available/KieranDB_production /etc/nginx/sites-enabled/KieranDB_production
+  INFO [f67b6453] Finished in 0.163 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-13 10:11:06 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ce432e57] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/ as kieska@138.197.158.6
+ DEBUG [ce432e57] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/rvm1scripts/
+  INFO [ce432e57] Finished in 4.324 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/kieska/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [f87bdb4b] Running /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh as kieska@138.197.158.6
+ DEBUG [f87bdb4b] Command: /usr/bin/env chmod +x /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh
+  INFO [f87bdb4b] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [7a35330c] Running /usr/bin/env mkdir -p /tmp as kieska@138.197.158.6
+ DEBUG [7a35330c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7a35330c] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 0.0%
+  INFO Uploading /tmp/git-ssh-KieranDB-production-kieska.sh 100.0%
+  INFO [f9c57254] Running /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh as kieska@138.197.158.6
+ DEBUG [f9c57254] Command: /usr/bin/env chmod 700 /tmp/git-ssh-KieranDB-production-kieska.sh
+  INFO [f9c57254] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [6ba475d1] Running [ -f /home/kieska/apps/KieranDB/repo/HEAD ] as kieska@138.197.158.6
+ DEBUG [6ba475d1] Command: [ -f /home/kieska/apps/KieranDB/repo/HEAD ]
+ DEBUG [6ba475d1] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/kieska/apps/KieranDB/repo
+ DEBUG [41bf4cf7] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [41bf4cf7] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [41bf4cf7] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [ba9eb3dc] Running /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git as kieska@138.197.158.6
+ DEBUG [ba9eb3dc] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote set-url origin git@github.com:kieska6/Rocket-Elevators.git )
+  INFO [ba9eb3dc] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [a580c491] Running /usr/bin/env git remote update --prune as kieska@138.197.158.6
+ DEBUG [a580c491] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a580c491] 	Fetching origin
+  INFO [a580c491] Finished in 0.604 seconds with exit status 0 (successful).
+ DEBUG [60d6aae1] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [60d6aae1] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [60d6aae1] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO [1db63482] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110 as kieska@138.197.158.6
+ DEBUG [1db63482] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110 )
+  INFO [1db63482] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [979382ab] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113151110 as kieska@138.197.158.6
+ DEBUG [979382ab] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/kieska/apps/KieranDB/releases/20220113151110 )
+  INFO [979382ab] Finished in 1.636 seconds with exit status 0 (successful).
+ DEBUG [64d46d59] Running if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [64d46d59] Command: if test ! -d /home/kieska/apps/KieranDB/repo; then echo "Directory does not exist '/home/kieska/apps/KieranDB/repo'" 1>&2; false; fi
+ DEBUG [64d46d59] Finished in 0.233 seconds with exit status 0 (successful).
+ DEBUG [878bcc40] Running /usr/bin/env git rev-list --max-count=1 master as kieska@138.197.158.6
+ DEBUG [878bcc40] Command: cd /home/kieska/apps/KieranDB/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [878bcc40] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [878bcc40] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [83a8121b] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [83a8121b] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [83a8121b] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [14431251] Running /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION as kieska@138.197.158.6
+ DEBUG [14431251] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env echo "32ac21cddb51d2210882bf376b3df09d673381cd" > REVISION
+  INFO [14431251] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [73af2fe6] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/config as kieska@138.197.158.6
+ DEBUG [73af2fe6] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/config
+  INFO [73af2fe6] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [b44a321e] Running [ -L /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [b44a321e] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml ]
+ DEBUG [b44a321e] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [337a0f67] Running [ -f /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [337a0f67] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml ]
+ DEBUG [337a0f67] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [6b88ba22] Running /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml as kieska@138.197.158.6
+ DEBUG [6b88ba22] Command: /usr/bin/env rm /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml
+  INFO [6b88ba22] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [82f30202] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml as kieska@138.197.158.6
+ DEBUG [82f30202] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/config/database.yml /home/kieska/apps/KieranDB/releases/20220113151110/config/database.yml
+  INFO [82f30202] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [512fe106] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/tmp /home/kieska/apps/KieranDB/releases/20220113151110 /home/kieska/apps/KieranDB/releases/20220113151110/public as kieska@138.197.158.6
+ DEBUG [512fe106] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/tmp /home/kieska/apps/KieranDB/releases/20220113151110 /home/kieska/apps/KieranDB/releases/20220113151110/public
+  INFO [512fe106] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [65c86744] Running [ -L /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [65c86744] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids ]
+ DEBUG [65c86744] Finished in 0.126 seconds with exit status 1 (failed).
+ DEBUG [aaa0216c] Running [ -d /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids ] as kieska@138.197.158.6
+ DEBUG [aaa0216c] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids ]
+ DEBUG [aaa0216c] Finished in 0.141 seconds with exit status 1 (failed).
+  INFO [ceea28dd] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids as kieska@138.197.158.6
+ DEBUG [ceea28dd] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/releases/20220113151110/tmp/pids
+  INFO [ceea28dd] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [6f208063] Running [ -L /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [6f208063] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets ]
+ DEBUG [6f208063] Finished in 0.122 seconds with exit status 1 (failed).
+ DEBUG [35e44374] Running [ -d /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets ] as kieska@138.197.158.6
+ DEBUG [35e44374] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets ]
+ DEBUG [35e44374] Finished in 0.149 seconds with exit status 1 (failed).
+  INFO [9f22cf7c] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets as kieska@138.197.158.6
+ DEBUG [9f22cf7c] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/releases/20220113151110/tmp/sockets
+  INFO [9f22cf7c] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [033d4bbf] Running [ -L /home/kieska/apps/KieranDB/releases/20220113151110/log ] as kieska@138.197.158.6
+ DEBUG [033d4bbf] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113151110/log ]
+ DEBUG [033d4bbf] Finished in 0.168 seconds with exit status 1 (failed).
+ DEBUG [de44de2a] Running [ -d /home/kieska/apps/KieranDB/releases/20220113151110/log ] as kieska@138.197.158.6
+ DEBUG [de44de2a] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113151110/log ]
+ DEBUG [de44de2a] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [cfb5b5aa] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113151110/log as kieska@138.197.158.6
+ DEBUG [cfb5b5aa] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113151110/log
+  INFO [cfb5b5aa] Finished in 0.177 seconds with exit status 0 (successful).
+  INFO [4c37b031] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113151110/log as kieska@138.197.158.6
+ DEBUG [4c37b031] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/releases/20220113151110/log
+  INFO [4c37b031] Finished in 0.118 seconds with exit status 0 (successful).
+ DEBUG [a4f8b481] Running [ -L /home/kieska/apps/KieranDB/releases/20220113151110/public/assets ] as kieska@138.197.158.6
+ DEBUG [a4f8b481] Command: [ -L /home/kieska/apps/KieranDB/releases/20220113151110/public/assets ]
+ DEBUG [a4f8b481] Finished in 0.165 seconds with exit status 1 (failed).
+ DEBUG [8b4ce42c] Running [ -d /home/kieska/apps/KieranDB/releases/20220113151110/public/assets ] as kieska@138.197.158.6
+ DEBUG [8b4ce42c] Command: [ -d /home/kieska/apps/KieranDB/releases/20220113151110/public/assets ]
+ DEBUG [8b4ce42c] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [ca12d092] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113151110/public/assets as kieska@138.197.158.6
+ DEBUG [ca12d092] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113151110/public/assets
+  INFO [ca12d092] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [6582bad3] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113151110/public/assets as kieska@138.197.158.6
+ DEBUG [6582bad3] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/shared/public/assets /home/kieska/apps/KieranDB/releases/20220113151110/public/assets
+  INFO [6582bad3] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [0b156fbe] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [0b156fbe] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [0b156fbe] Finished in 0.176 seconds with exit status 0 (successful).
+  INFO [d0739e91] Running /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install . as kieska@138.197.158.6
+ DEBUG [d0739e91] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [d0739e91] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [d0739e91] Finished in 0.619 seconds with exit status 0 (successful).
+  INFO [89d08a5f] Running /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD as kieska@138.197.158.6
+ DEBUG [89d08a5f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-KieranDB-production-kieska.sh" ; /usr/bin/env git ls-remote git@github.com:kieska6/Rocket-Elevators.git HEAD )
+ DEBUG [89d08a5f] 	32ac21cddb51d2210882bf376b3df09d673381cd	HEAD
+  INFO [89d08a5f] Finished in 0.633 seconds with exit status 0 (successful).
+  INFO [941fd84e] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [941fd84e] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared /home/kieska/apps/KieranDB/releases
+  INFO [941fd84e] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [16077719] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets as kieska@138.197.158.6
+ DEBUG [16077719] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/tmp/pids /home/kieska/apps/KieranDB/shared/tmp/sockets /home/kieska/apps/KieranDB/shared/log /home/kieska/apps/KieranDB/shared/public/assets
+  INFO [16077719] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [0f490807] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config as kieska@138.197.158.6
+ DEBUG [0f490807] Command: /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/shared/config
+  INFO [0f490807] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG [e2bd1410] Running [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ] as kieska@138.197.158.6
+ DEBUG [e2bd1410] Command: [ -f /home/kieska/apps/KieranDB/shared/config/database.yml ]
+ DEBUG [e2bd1410] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [4564c31d] Running [ -f /home/kieska/apps/KieranDB/shared/puma.rb ] as kieska@138.197.158.6
+ DEBUG [4564c31d] Command: [ -f /home/kieska/apps/KieranDB/shared/puma.rb ]
+ DEBUG [4564c31d] Finished in 0.134 seconds with exit status 0 (successful).
+ DEBUG [8c11352b] Running [ -f /home/kieska/apps/KieranDB/releases/20220113151110/REVISION ] as kieska@138.197.158.6
+ DEBUG [8c11352b] Command: [ -f /home/kieska/apps/KieranDB/releases/20220113151110/REVISION ]
+ DEBUG [8c11352b] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [9a8a74d1] Running /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113151110/REVISION 2>/dev/null as kieska@138.197.158.6
+ DEBUG [9a8a74d1] Command: /usr/bin/env cat /home/kieska/apps/KieranDB/releases/20220113151110/REVISION 2>/dev/null
+ DEBUG [9a8a74d1] 	32ac21cddb51d2210882bf376b3df09d673381cd
+ DEBUG [9a8a74d1] Finished in 0.125 seconds with exit status 0 (successful).
+ DEBUG [23bd5e79] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [23bd5e79] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [23bd5e79] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [cc92ed6a] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as kieska@138.197.158.6
+ DEBUG [cc92ed6a] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+  INFO [cc92ed6a] Finished in 1.022 seconds with exit status 0 (successful).
+  INFO [5c2abf42] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle as kieska@138.197.158.6
+ DEBUG [5c2abf42] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local path /home/kieska/apps/KieranDB/shared/bundle
+  INFO [5c2abf42] Finished in 0.922 seconds with exit status 0 (successful).
+  INFO [11b463ef] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production as kieska@138.197.158.6
+ DEBUG [11b463ef] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle config --local without production
+  INFO [11b463ef] Finished in 0.964 seconds with exit status 0 (successful).
+ DEBUG [401becc3] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [401becc3] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [401becc3] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [dec4d964] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check as kieska@138.197.158.6
+ DEBUG [dec4d964] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [dec4d964] 	The Gemfile's dependencies are satisfied
+ DEBUG [dec4d964] Finished in 1.198 seconds with exit status 0 (successful).
+  INFO The Gemfile's dependencies are satisfied, skipping installation
+ DEBUG [de6e6f63] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [de6e6f63] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [de6e6f63] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [eb50e6e5] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile as kieska@138.197.158.6
+ DEBUG [eb50e6e5] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && ( export RAILS_ENV="development" RAILS_GROUPS="" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake assets:precompile )
+ DEBUG [eb50e6e5] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [eb50e6e5] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+ DEBUG [eb50e6e5] 	yarn install v1.22.17
+ DEBUG [eb50e6e5] 	warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+ DEBUG [eb50e6e5] 	[1/4] Resolving packages...
+ DEBUG [eb50e6e5] 	[2/4] Fetching packages...
+ DEBUG [eb50e6e5] 	[3/4] Linking dependencies...
+ DEBUG [eb50e6e5] 	warning "microsoft-cognitiveservices-speech-sdk > asn1.js-rfc2560@5.0.1" has unmet peer dependency "asn1.js@^5.0.0".
+ DEBUG [eb50e6e5] 	[4/4] Building fresh packages...
+ DEBUG [eb50e6e5] 	success Saved lockfile.
+ DEBUG [eb50e6e5] 	Done in 25.30s.
+ DEBUG [eb50e6e5] 	W, [2022-01-13T15:11:55.038671 #113234]  WARN -- : Removed sourceMappingURL comment for missing asset 'bootstrap.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113151110/app/assets/javascripts/bootstrap.min.js
+ DEBUG [eb50e6e5] 	W, [2022-01-13T15:11:55.053076 #113234]  WARN -- : Removed sourceMappingURL comment for missing asset 'popper.min.js.map' from /home/kieska/apps/KieranDB/releases/20220113151110/vendor/assets/javascripts/scripts.js
+ DEBUG [eb50e6e5] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113151110/vendor/assets/stylesheets/essentials.css:1300:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+autoprefixer: /home/kieska/apps/KieranDB/releases/20220113151110/vendor/assets/stylesheets/essentials.css:1311:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [eb50e6e5] 	autoprefixer: /home/kieska/apps/KieranDB/releases/20220113151110/vendor/assets/stylesheets/settings.css:1302:2: Gradient has outdated direction syntax. New syntax is like `to left` instead of `right`.
+ DEBUG [eb50e6e5] 	W, [2022-01-13T15:12:10.974922 #113234]  WARN -- : Removed sourceMappingURL comment for missing asset 'rails_admin/jquery-migrate.min.map' from /home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/rails_admin-2.2.1/app/assets/javascripts/rails_admin/jquery.migrate.js
+  INFO [eb50e6e5] Finished in 49.231 seconds with exit status 0 (successful).
+ DEBUG [b68c885c] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [b68c885c] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [b68c885c] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [7da46a77] Running /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [7da46a77] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env mkdir -p /home/kieska/apps/KieranDB/releases/20220113151110/assets_manifest_backup
+  INFO [7da46a77] Finished in 0.179 seconds with exit status 0 (successful).
+ DEBUG [6067c896] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [6067c896] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest*
+ DEBUG [6067c896] 	/home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [6067c896] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [928e6512] Running /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest* as kieska@138.197.158.6
+ DEBUG [928e6512] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env ls /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest*
+ DEBUG [928e6512] 	/home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json
+ DEBUG [928e6512] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [c1665c82] Running /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113151110/assets_manifest_backup as kieska@138.197.158.6
+ DEBUG [c1665c82] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && /usr/bin/env cp /home/kieska/apps/KieranDB/releases/20220113151110/public/assets/.sprockets-manifest-dc152d604971a62edbcf2aee745caa46.json /home/kieska/apps/KieranDB/releases/20220113151110/assets_manifest_backup
+  INFO [c1665c82] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [e940c29f] Running if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [e940c29f] Command: if test ! -d /home/kieska/apps/KieranDB/releases/20220113151110; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases/20220113151110'" 1>&2; false; fi
+ DEBUG [e940c29f] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [7a1ab91b] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate as kieska@138.197.158.6
+ DEBUG [7a1ab91b] Command: cd /home/kieska/apps/KieranDB/releases/20220113151110 && ( export RAILS_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec rake db:migrate )
+ DEBUG [7a1ab91b] 	/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:2: warning: already initialized constant Bootstrap::VERSION
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:4: warning: previous definition of VERSION was here
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-sass-3.4.1/lib/bootstrap-sass/version.rb:3: warning: already initialized constant Bootstrap::BOOTSTRAP_SHA
+/home/kieska/apps/KieranDB/shared/bundle/ruby/2.6.0/gems/bootstrap-5.1.3/lib/bootstrap/version.rb:5: warning: previous definition of BOOTSTRAP_SHA was here
+ DEBUG [7a1ab91b] 	Called 'load' without the :safe option -- defaulting to safe mode.
+You can avoid this warning in the future by setting the SafeYAML::OPTIONS[:default_mode] option (to :safe or :unsafe).
+  INFO [7a1ab91b] Finished in 5.504 seconds with exit status 0 (successful).
+  INFO [e5953500] Running /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113151110 /home/kieska/apps/KieranDB/releases/current as kieska@138.197.158.6
+ DEBUG [e5953500] Command: /usr/bin/env ln -s /home/kieska/apps/KieranDB/releases/20220113151110 /home/kieska/apps/KieranDB/releases/current
+  INFO [e5953500] Finished in 0.199 seconds with exit status 0 (successful).
+  INFO [e4cf1267] Running /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB as kieska@138.197.158.6
+ DEBUG [e4cf1267] Command: /usr/bin/env mv /home/kieska/apps/KieranDB/releases/current /home/kieska/apps/KieranDB
+  INFO [e4cf1267] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [e2950ade] Running /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases as kieska@138.197.158.6
+ DEBUG [e2950ade] Command: /usr/bin/env ls -x /home/kieska/apps/KieranDB/releases
+ DEBUG [e2950ade] 	20220113045531	20220113133528	20220113134357	20220113145257	20220113145646
+20220113151110
+ DEBUG [e2950ade] Finished in 0.174 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 138.197.158.6
+ DEBUG [e696a4e8] Running [ -d /home/kieska/apps/KieranDB/current ] as kieska@138.197.158.6
+ DEBUG [e696a4e8] Command: [ -d /home/kieska/apps/KieranDB/current ]
+ DEBUG [e696a4e8] Finished in 0.119 seconds with exit status 0 (successful).
+ DEBUG [67331836] Running /usr/bin/env readlink /home/kieska/apps/KieranDB/current as kieska@138.197.158.6
+ DEBUG [67331836] Command: /usr/bin/env readlink /home/kieska/apps/KieranDB/current
+ DEBUG [67331836] 	/home/kieska/apps/KieranDB/releases/20220113151110
+ DEBUG [67331836] Finished in 0.167 seconds with exit status 0 (successful).
+  INFO [258d8b8c] Running /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113045531 as kieska@138.197.158.6
+ DEBUG [258d8b8c] Command: /usr/bin/env rm -rf /home/kieska/apps/KieranDB/releases/20220113045531
+  INFO [258d8b8c] Finished in 0.653 seconds with exit status 0 (successful).
+ DEBUG [d0217ccf] Running if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [d0217ccf] Command: if test ! -d /home/kieska/apps/KieranDB/releases; then echo "Directory does not exist '/home/kieska/apps/KieranDB/releases'" 1>&2; false; fi
+ DEBUG [d0217ccf] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [03621625] Running /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113151110 by kieska" >> /home/kieska/apps/KieranDB/revisions.log as kieska@138.197.158.6
+ DEBUG [03621625] Command: cd /home/kieska/apps/KieranDB/releases && /usr/bin/env echo "Branch master (at 32ac21cddb51d2210882bf376b3df09d673381cd) deployed as release 20220113151110 by kieska" >> /home/kieska/apps/KieranDB/revisions.log
+  INFO [03621625] Finished in 0.136 seconds with exit status 0 (successful).
+ DEBUG [acc22d06] Running if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi as kieska@138.197.158.6
+ DEBUG [acc22d06] Command: if test ! -d /home/kieska/apps/KieranDB/current; then echo "Directory does not exist '/home/kieska/apps/KieranDB/current'" 1>&2; false; fi
+ DEBUG [acc22d06] Finished in 0.177 seconds with exit status 0 (successful).
+ DEBUG [ea72fe05] Running [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ] as kieska@138.197.158.6
+ DEBUG [ea72fe05] Command: [ -f /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ]
+ DEBUG [ea72fe05] Finished in 0.124 seconds with exit status 0 (successful).
+ DEBUG [0299aebd] Running /usr/bin/env kill -0 $( cat /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ) as kieska@138.197.158.6
+ DEBUG [0299aebd] Command: cd /home/kieska/apps/KieranDB/current && ( export RACK_ENV="development" ; /usr/bin/env kill -0 $( cat /home/kieska/apps/KieranDB/shared/tmp/pids/puma.pid ) )
+ DEBUG [0299aebd] Finished in 0.166 seconds with exit status 0 (successful).
+  INFO [0e638aac] Running /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec pumactl -S /home/kieska/apps/KieranDB/shared/tmp/pids/puma.state -F /home/kieska/apps/KieranDB/shared/puma.rb restart as kieska@138.197.158.6
+ DEBUG [0e638aac] Command: cd /home/kieska/apps/KieranDB/current && ( export RACK_ENV="development" ; /home/kieska/apps/KieranDB/rvm1scripts/rvm-auto.sh . bundle exec pumactl -S /home/kieska/apps/KieranDB/shared/tmp/pids/puma.state -F /home/kieska/apps/KieranDB/shared/puma.rb restart )
+ DEBUG [0e638aac] 	Command restart sent success
+  INFO [0e638aac] Finished in 1.807 seconds with exit status 0 (successful).

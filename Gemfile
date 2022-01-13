@@ -116,4 +116,4 @@ gem "twilio-ruby"
 gem "zendesk_api"
 gem 'carrierwave', '~> 2.0'
 gem 'bootstrap-sass'
-
+gem 'newrelic_rpm'
